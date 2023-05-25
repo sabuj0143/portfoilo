@@ -8,7 +8,7 @@ const Services = () => {
                 <button className="text-3xl font-bold btn btn-outline btn-primary border-0 border-b-4">My Services</button>
                 <p className="text-xl font-bold mt-6">Client satisfaction is my first priority</p>
             </div>
-            <div className="service-container mt-4 grid md:grid-cols-3 ">
+            <div className="service-container mt-4 grid md:grid-cols-3 gap-4">
                 <div className="card w-96 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img src={img1} alt="Shoes" className="rounded-xl" />
