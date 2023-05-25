@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
             <div className="footer footer-center p-4 bg-[#151515] text-[#6D6D6D]">
                 <div className="text-white">
-                    <p>Copyright © 2023 - All right reserved by <span className="text-primary">Sabuj Howlader</span></p>
+                    <p>Copyright - All right reserved by <span className="text-primary">Sabuj Howlader</span> © 2023</p>
                 </div>
             </div>
         </footer>

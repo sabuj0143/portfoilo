@@ -1,4 +1,3 @@
-import About from "../About/About";
 import Banner from "./Banner";
 import Services from "./Services";
 

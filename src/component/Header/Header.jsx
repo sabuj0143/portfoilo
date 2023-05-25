@@ -12,9 +12,9 @@ const Header = () => {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/">Resume</Link></li>
-                        <li><Link to="/">Projects</Link></li>
-                        <li><Link to="/about">Blogs</Link></li>
-                        <li><Link to="/about">Contact</Link></li>
+                        <li><Link to="/projects">Projects</Link></li>
+                        <li><Link to="/">Blogs</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
                 <a className="normal-case text-xl">Sabuj<span className="text-[#0D6EDA] ml-2">Howlader</span></a>
@@ -24,9 +24,9 @@ const Header = () => {
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/">Resume</Link></li>
-                    <li><Link to="/about">Projects</Link></li>
-                    <li><Link to="/about">Blogs</Link></li>
-                    <li><Link to="/about">Contact</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/">Blogs</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
         </div>
