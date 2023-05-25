@@ -44,7 +44,7 @@ const Contact = () => {
                                 <textarea type="textarea" name='description'  placeholder='Description...' className="input input-bordered h-[150px] py-4" required />
                             </div>
                         </form>
-                        <div className=" w-[35%] mx-auto mt-4">
+                        <div className="md:w-[30%] mt-4">
                             <button className="btn btn-outline btn-primary rounded-2xl"> <FaTelegramPlane className='mr-2' /> SENT YOUR MESSAGE</button>
                         </div>
                     </div>
