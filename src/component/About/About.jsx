@@ -11,7 +11,7 @@ const About = () => {
                 <div className="hero mt-5">
                     <div className="hero-content flex-col lg:flex-row">
                         <img style={{borderRadius: "300px 300px 0 300px"}} src={img} className="max-w-sm rounded-lg shadow-2xl" />
-                        <div className='pl-8'>
+                        <div className='px-8'>
                             <p className="py-6 space">Hi, I'm Sabuj Howlader, a full stack web developer. Web design & development is my passion. I love to explore new tech things.
                                 I'm very passionate and dedicated to my work. I have expertise in Front-End and Back-End Web development too. I can design a website fully responsive & dynamic as per requirment. I enjoy every step of the design & development process from discussion and collaboration.
                                 I have experience in React JS, JavaScript, Next JS, MongoDB, Experess, Tailwind CSS, Bootstrap, Firebase etc.</p>

@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
+import './Header.css'
 
+// relative
 const Header = () => {
     return (
         <div className="navbar text-xl py-4 px-4 font-semibold">
