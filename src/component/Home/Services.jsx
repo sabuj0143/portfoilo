@@ -5,34 +5,38 @@ const Services = () => {
     return (
         <div className="my-12">
             <div className="title text-center mx-auto">
-                <button className="text-3xl font-bold btn btn-outline btn-primary border-0 border-b-4">My Services</button>
-                <p className="text-xl font-bold mt-6">Client satisfaction is my first priority</p>
+                <h2 className='text-3xl font-semibold'>My Services</h2>
+                <span className='relative -top-0 inline-block w-28 border-[3px] border-primary'></span>
+                <p className="text-xl font-bold mb-4">Client satisfaction is my first priority</p>
             </div>
             <div className="service-container mt-4 grid md:grid-cols-3 gap-4">
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card w-96 bg-base-100 hover:bg-[#0D6EDA] hover:text-white shadow-xl">
                     <figure className="px-10 pt-10">
                         <img src={img1} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title border-0 border-b-2 border-primary">Web Design</h2>
+                        <h2 className="card-title text-2xl font-semibold">Web Design</h2>
+                        <span className='relative -top-0 inline-block w-20 border-[3px] border-primary'></span>
                         <p>I can make a fully responsive front end and static website like Portfolio, E-commerce & others.</p>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card w-96 bg-base-100 hover:bg-[#0D6EDA] hover:text-white shadow-xl">
                     <figure className="px-10 pt-10">
                         <img src={img2} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title border-0 border-b-2 border-primary">Full Stack Development</h2>
+                        <h2 className="card-title text-2xl font-semibold">Full Stack Development</h2>
+                        <span className='relative -top-0 inline-block w-20 border-[3px] border-primary'></span>
                         <p>I can develop website with clean, fresh and issue free code to make your website dynamic perfectly..</p>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card w-96 bg-base-100 hover:bg-[#0D6EDA] hover:text-white shadow-xl">
                     <figure className="px-10 pt-10">
                         <img src={img3} alt="Shoes" className="rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
-                        <h2 className="card-title border-0 border-b-2 border-primary">UI/UX Design</h2>
+                        <h2 className="card-title font-semibold text-2xl">UI/UX Design</h2>
+                        <span className='relative -top-0 inline-block w-20 border-[3px] border-primary'></span>
                         <p>I can design creative UI for your app or website as per your demand and specification.</p>
                     </div>
                 </div>

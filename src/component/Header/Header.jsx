@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div className="navbar bg-base-300 lilita text-xl py-4 px-4 font-semibold">
+        <div className="navbar text-xl py-4 px-4 font-semibold">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -17,10 +17,11 @@ const Header = () => {
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
-                <a className="normal-case text-xl">Sabuj<span className="text-[#0D6EDA] ml-2">Howlader</span></a>
+                <a className="normal-case lilita text-2xl">Sabuj<span className="text-[#0D6EDA] ml-2">Howlader</span></a>
             </div>
             <div className="navbar-end hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul className="menu-horizontal flex space-x-5 px-1">
+
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/resume">Resume</Link></li>

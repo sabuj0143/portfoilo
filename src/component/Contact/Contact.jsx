@@ -1,13 +1,17 @@
 import { FaTelegramPlane } from 'react-icons/fa';
 const Contact = () => {
     return (
-        <div className='my-16'>
+        <div className='p-4'>
             <div className="title text-center mx-auto">
-                <h3 className="w-[20%] mx-auto lilita text-4xl border-0 border-b-2 border-primary">Contact Me</h3>
+                <h3 className="w-[20%] mx-auto lilita text-4xl">Contact Me</h3>
+                <span className='relative -top-0 inline-block w-20 border-[3px] border-primary'></span>
             </div>
             <div>
-                <div className='w-full mx-auto my-5'>
-                    <div className="card-body w-[80%] mx-auto border rounded-lg">
+                <div className='w-full mx-auto flex my-5'>
+                    {/* <div className='w-[20%]'>
+                        <h3>2nd section</h3>
+                    </div> */}
+                    <div className="card-body w-[80%] mx-auto bg-slate-200 border rounded-lg">
                         <form>
                             <div className='md:grid grid-cols-2 gap-4'>
                                 <div className="form-control">

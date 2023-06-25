@@ -13,15 +13,21 @@ const Footer = () => {
                         <button className="btn btn-outline btn-primary">Contact</button>
                     </Link>
                     <div className='space-x-2 mt-3'>
-                            <button className="btn btn-primary btn-circle btn-outline">
-                                <FaLinkedinIn />
-                            </button>
-                            <button className="btn btn-primary btn-circle btn-outline">
-                                <FaGithub />
-                            </button>
-                            <button className="btn btn-primary btn-circle btn-outline">
-                                <FaFacebook />
-                            </button>
+                    <a href="https://www.linkedin.com/in/sabuj-howladar-16b467247/">
+                                <button className="btn btn-primary btn-circle btn-outline">
+                                    <FaLinkedinIn />
+                                </button>
+                            </a>
+                            <a href="https://github.com/sabuj0143">
+                                <button className="btn btn-primary btn-circle btn-outline">
+                                    <FaGithub />
+                                </button>
+                            </a>
+                            <a href="https://www.facebook.com/sabujhowlader0143">
+                                <button className="btn btn-primary btn-circle btn-outline">
+                                    <FaFacebook />
+                                </button>
+                            </a>
                             <button className="btn btn-primary btn-circle btn-outline">
                                 <FaFacebookMessenger />
                             </button>
