@@ -3,7 +3,7 @@ import bannerImg from '../../../public/banner/profile-img.jpg'
 import { TypeAnimation } from 'react-type-animation';
 const Banner = () => {
     return (
-        <div className='w-full h-[100vh]'>
+        <div className='w-full mx-auto'>
             <div className="hero md:min-h-screen md:w-full h-[80vh]">
                 <div className="hero-content flex-col lg:flex-row-reverse">
 
@@ -56,7 +56,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="img-div md:w-1/2">
-                        <img style={{borderRadius: "0 200px 200px 200px"}} src={bannerImg} className="rounded-lg shadow-2xl" />
+                        <img style={{borderRadius: "0 300px 300px 300px"}} src={bannerImg} className="rounded-lg shadow-2xl" />
                     </div>
                 </div>
             </div>
