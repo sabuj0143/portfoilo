@@ -1,4 +1,3 @@
-
 const Resume = () => {
     return (
         <div className="text-center my-56">

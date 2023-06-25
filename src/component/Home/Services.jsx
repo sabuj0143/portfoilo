@@ -3,8 +3,8 @@ import img2 from '../../../public/services/developmentIcon.png'
 import img3 from '../../../public/services/uiIcon.png'
 const Services = () => {
     return (
-        <div className="my-12">
-            <div className="title text-center w-full mx-auto">
+        <div className="w-full mx-auto mt-36 md:my-12">
+            <div className="title text-center w-[80%] mx-auto">
                 <h2 data-aos="fade-right" className='text-3xl font-bold'>My Services</h2>
                 <span className='relative -top-0 inline-block w-28 border-[3px] border-primary'></span>
                 <p data-aos="fade-left" className="text-xl font-bold mb-8">Client satisfaction is my first priority</p>

@@ -1,9 +1,21 @@
 import { FaLinkedinIn, FaGithub, FaFacebook, FaFacebookMessenger } from 'react-icons/fa';
-import bannerImg from '../../../public/banner/profile-img.jpg'
+import bannerImg from '../../../public/banner/profile-img.jpg';
 import { TypeAnimation } from 'react-type-animation';
+const PDF_FILE_URL= '../../../public/resume/SabujHowladerResume01.pdf';
+
+const downloadFileURL = (url) => {
+    const fileName = url.split('/').pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute('download', fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+}
+
 const Banner = () => {
     return (
-        <div className='w-full mx-auto'>
+        <div className='w-full h-[100vh] mx-auto mb-4'>
             <div className="hero md:min-h-screen md:w-full h-[80vh]">
                 <div className="hero-content flex-col lg:flex-row-reverse">
 
@@ -50,13 +62,15 @@ const Banner = () => {
                         </div>
 
                         <div className='block mt-4'>
-                            <button className="btn btn-primary">View Resume</button>
+                            {/* <a href={resume} download='Resume'> */}
+                                <button onClick={() => downloadFileURL(PDF_FILE_URL)} className="btn btn-primary">View Resume</button>
+                            {/* </a> */}
                             <button className="btn btn-primary ml-5">Hire Me</button>
 
                         </div>
                     </div>
                     <div className="img-div md:w-1/2">
-                        <img style={{borderRadius: "0 300px 300px 300px"}} src={bannerImg} className="rounded-lg shadow-2xl" />
+                        <img style={{ borderRadius: "0 300px 300px 300px" }} src={bannerImg} className="rounded-lg shadow-2xl" />
                     </div>
                 </div>
             </div>
