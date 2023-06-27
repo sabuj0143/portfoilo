@@ -1,0 +1,12 @@
+/* .img-card{
+    background: radial-gradient(#111, 50%, #000, 50%);
+    overflow: hidden;
+}
+.img-card img{
+    transform: scale(1, 3);
+    transition: all 0.3s ease-out;
+}
+.img-card:hover{
+    transform: scale(1, 1) translateX(-20px);
+    opacity: 0.3;
+} */
