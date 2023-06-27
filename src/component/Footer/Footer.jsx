@@ -7,31 +7,32 @@ const Footer = () => {
             <div className="footer lilita p-10 bg-[#222222] text-neutral-content">
                 <div>
                     <h3 className="text-[#F9FAFB] font-extrabold text-2xl">Sabuj
-                    <span className="text-[#0D6EDA]"> Howlader</span></h3>
+                        <span className="text-[#0D6EDA]"> Howlader</span></h3>
                     <p>I am always here for building your dream project!</p>
                     <Link to="/contact">
                         <button className="btn btn-outline btn-primary">Contact</button>
                     </Link>
-                    <div className='space-x-2 mt-3'>
-                    <a href="https://www.linkedin.com/in/sabuj-howladar-16b467247/">
-                                <button className="btn btn-primary btn-circle btn-outline">
-                                    <FaLinkedinIn />
-                                </button>
-                            </a>
-                            <a href="https://github.com/sabuj0143">
-                                <button className="btn btn-primary btn-circle btn-outline">
-                                    <FaGithub />
-                                </button>
-                            </a>
-                            <a href="https://www.facebook.com/sabujhowlader0143">
-                                <button className="btn btn-primary btn-circle btn-outline">
-                                    <FaFacebook />
-                                </button>
-                            </a>
+                    <div className='space-x-3 mt-3'>
+                        <a href="https://www.linkedin.com/in/sabuj-howladar-16b467247/">
                             <button className="btn btn-primary btn-circle btn-outline">
-                                <FaFacebookMessenger />
+                                <FaLinkedinIn className='w-[20px] h-[20px]' />
                             </button>
-                        </div>
+                        </a>
+                        <a href="https://github.com/sabuj0143">
+                            <button className="btn btn-primary btn-circle btn-outline">
+                                <FaGithub className='w-[20px] h-[20px]' />
+                            </button>
+                        </a>
+                        <a href="https://www.facebook.com/sabujhowlader0143">
+                            <button className="btn btn-primary btn-circle btn-outline">
+                                <FaFacebook className='w-[20px] h-[20px]' />
+                            </button>
+                        </a>
+                        <button className="btn btn-primary btn-circle btn-outline">
+                            <FaFacebookMessenger className='w-[20px] h-[20px]' />
+                        </button>
+                    </div>
+
                 </div>
                 <div>
                     <span className="footer-title">
@@ -48,8 +49,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer footer-center p-4 bg-[#151515] text-[#6D6D6D]">
-                <div className="text-white">
-                    <p>Copyright - All right reserved by <span className="text-primary">Sabuj Howlader</span> © 2023</p>
+                <div className="text-primary">
+                    <p>Copyright - All right reserved by Sabuj Howlader © 2023</p>
                 </div>
             </div>
         </footer>

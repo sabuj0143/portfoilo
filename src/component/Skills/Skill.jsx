@@ -18,73 +18,77 @@ const Skill = () => {
     return (
         <div className="my-16">
             <div className="title text-center w-full mx-auto my-10">
-                <h3 data-aos="fade-down" className="w-[20%] mx-auto  text-4xl font-bold">My Skills</h3>
+                <h3 className="w-[20%] mx-auto  text-4xl font-bold">My Skills</h3>
                 <span className='relative -top-0 inline-block w-20 border-[3px] border-primary'></span>
             </div>
-            <div className="skill-container md:w-full mx-auto gap-4 md:flex">
-                <div data-aos="fade-right" className="card md:w-1/3 bg-base-100 shadow-xl">
+            <div className="skill-container md:w-full mx-auto gap-4 md:grid grid-cols-3">
+                <div className="card bg-base-100 shadow-xl">
                     <div className="text-center">
                         <h3 className="border p-2 mt-2">Front End Technologies</h3>
                     </div>
-                    <div className="space-x-4 p-4 ml-3 flex">
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px]rounded-xl" src={img1} alt="" />
-                            <p className="pt-2">Next.js</p>
+                    <div className="gap-x-4 p-4 ml-3 text-center items-center grid grid-cols-3">
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img1} alt="" />
+                            <p className="pt-2 text-sm">Next.js</p>
                         </div>
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img2} alt="" />
-                            <p className="pt-2">React</p>
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img2} alt="" />
+                            <p className="pt-2 text-sm">React</p>
                         </div>
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img3} alt="" />
-                            <p className="pt-2">JavaScript</p>
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img3} alt="" />
+                            <p className="pt-2 text-sm">JavaScript</p>
                         </div>
                     </div>
-                    <div className="space-x-4 p-4 ml-3 flex">
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img4} alt="" />
-                            <p className="pt-2">TypeScript</p>
+                    <div className="gap-x-4 p-4 ml-3 text-center items-center grid grid-cols-3">
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img4} alt="" />
+                            <p className="pt-2 text-sm">TypeScript</p>
                         </div>
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img5} alt="" />
-                            <p className="pt-2">Tailwind CSS</p>
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img5} alt="" />
+                            <p className="pt-2 text-sm">Tailwind CSS</p>
                         </div>
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img6} alt="" />
-                            <p className="pt-2">Bootstrap</p>
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square  rounded-xl" src={img6} alt="" />
+                            <p className="pt-2 text-sm">Bootstrap</p>
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" className="card md:w-1/3 bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl">
                     <div className="text-center">
                         <h3 className="border p-2 mt-2">Back End Technologies</h3>
                     </div>
-                    <div className="space-x-4 p-4 ml-3 flex">
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img7} alt="" />
-                            <p className="pt-2">Node.JS</p>
+                    <div className="gap-x-4 p-4 ml-3 text-center items-center grid grid-cols-3">
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img7} alt="" />
+                            <p className="pt-2 text-sm">Node.JS</p>
                         </div>
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img8} alt="" />
-                            <p className="pt-2">ExpressJS</p>
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img8} alt="" />
+                            <p className="pt-2 text-sm">ExpressJS</p>
                         </div>
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img9} alt="" />
-                            <p className="pt-2">MongoDB</p>
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img9} alt="" />
+                            <p className="pt-2 text-sm">MongoDB</p>
                         </div>
                     </div>
-                    <div className="space-x-4 p-4 ml-3 flex">
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img1} alt="" />
-                            <p className="pt-2">NextJS</p>
+                    <div className="gap-x-4 p-4 ml-3 text-center items-center grid grid-cols-3">
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img1} alt="" />
+                            <p className="pt-2 text-sm">NextJS</p>
                         </div>
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img10} alt="" />
-                            <p className="pt-2">Firebase</p>
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img10} alt="" />
+                            <p className="pt-2 text-sm">Firebase</p>
+                        </div>
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img8} alt="" />
+                            <p className="pt-2 text-sm">ExpressJS</p>
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-left" className="card md:w-1/3 bg-base-100 shadow-xl">
+                <div className="card  bg-base-100 shadow-xl">
                     <div className="text-center">
                         <h3 className="border p-2 mt-2">Tools</h3>
                     </div>

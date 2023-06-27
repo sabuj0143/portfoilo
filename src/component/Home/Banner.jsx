@@ -21,7 +21,7 @@ const Banner = () => {
 
                     <div className='md:w-1/2'>
                         <h4 className="text-3xl font-bold">HEY THERE!</h4>
-                        <h2 className='text-5xl font-bold py-4 text-[#0D6EDA]'>I'M Sabuj Howlader</h2>
+                        <h2 className='text-5xl font-bold py-4 text-primary'>I'M Sabuj Howlader</h2>
                         <TypeAnimation
                             sequence={[
                                 "Full Stack Developer",
@@ -43,21 +43,21 @@ const Banner = () => {
                         <div className='space-x-3'>
                             <a href="https://www.linkedin.com/in/sabuj-howladar-16b467247/">
                                 <button className="btn btn-primary btn-circle btn-outline">
-                                    <FaLinkedinIn />
+                                    <FaLinkedinIn className='w-[20px] h-[20px]' />
                                 </button>
                             </a>
                             <a href="https://github.com/sabuj0143">
                                 <button className="btn btn-primary btn-circle btn-outline">
-                                    <FaGithub />
+                                    <FaGithub className='w-[20px] h-[20px]' />
                                 </button>
                             </a>
                             <a href="https://www.facebook.com/sabujhowlader0143">
                                 <button className="btn btn-primary btn-circle btn-outline">
-                                    <FaFacebook />
+                                    <FaFacebook className='w-[20px] h-[20px]' />
                                 </button>
                             </a>
                             <button className="btn btn-primary btn-circle btn-outline">
-                                <FaFacebookMessenger />
+                                <FaFacebookMessenger className='w-[20px] h-[20px]' />
                             </button>
                         </div>
 
@@ -65,7 +65,7 @@ const Banner = () => {
                             {/* <a href={resume} download='Resume'> */}
                                 <button onClick={() => downloadFileURL(PDF_FILE_URL)} className="btn btn-primary">View Resume</button>
                             {/* </a> */}
-                            <button className="btn btn-primary ml-5">Hire Me</button>
+                            <button className="btn btn-primary ml-2">Hire Me</button>
 
                         </div>
                     </div>
