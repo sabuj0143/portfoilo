@@ -88,36 +88,36 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card  bg-base-100 shadow-xl">
+                <div className="card bg-base-100 shadow-xl">
                     <div className="text-center">
                         <h3 className="border p-2 mt-2">Tools</h3>
                     </div>
-                    <div className="space-x-4 p-4 ml-3 flex">
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img11} alt="" />
-                            <p className="pt-2 ">VSCode</p>
+                    <div className="gap-x-4 p-4 ml-3 text-center items-center grid grid-cols-3">
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img11} alt="" />
+                            <p className="pt-2 text-sm">VSCode</p>
                         </div>
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img12} alt="" />
-                            <p className="pt-2">DevTools</p>
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img12} alt="" />
+                            <p className="pt-2 text-sm">DevTools</p>
                         </div>
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img13} alt="" />
-                            <p className="pt-2">Git</p>
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img13} alt="" />
+                            <p className="pt-2 text-sm">Git</p>
                         </div>
                     </div>
-                    <div className="space-x-4 p-4 ml-3 flex">
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img14} alt="" />
-                            <p className="pt-2">GitHub</p>
+                    <div className="gap-x-4 p-4 ml-3 text-center items-center grid grid-cols-3">
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img14} alt="" />
+                            <p className="pt-2 text-sm">GitHub</p>
                         </div>
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img15} alt="" />
-                            <p className="pt-2">Netlify</p>
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img15} alt="" />
+                            <p className="pt-2 text-sm">Netlify</p>
                         </div>
-                        <div className="bg-base-100 shadow-xl w-[30%] px-8 py-2 my-2">
-                            <img className="w-[50px] h-[50px] rounded-xl" src={img10} alt="" />
-                            <p className="pt-2">Firebase</p>
+                        <div className="bg-base-100 shadow-xl p-2 my-2">
+                            <img className="w-[80%] aspect-square rounded-xl" src={img10} alt="" />
+                            <p className="pt-2 text-sm">Firebase</p>
                         </div>
                     </div>
                 </div>

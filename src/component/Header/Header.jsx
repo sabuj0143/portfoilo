@@ -4,7 +4,7 @@ import './Header.css'
 // relative
 const Header = () => {
     return (
-        <div className="navbar text-xl py-4 px-4 font-semibold">
+        <div className="navbar bg-gray-100 text-xl py-4 px-4 font-semibold">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

@@ -1,0 +1,8 @@
+/* .navbar{
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+} */
+.navbar a:hover{
+    color: #570DF8;
+}

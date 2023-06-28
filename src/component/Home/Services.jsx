@@ -12,8 +12,8 @@ const Services = () => {
             <div className="service-container mt-4 grid md:grid-cols-3 gap-4">
                 <div 
                     className="card bg-base-100 hover:bg-[#0D6EDA] hover:text-white shadow-xl">
-                    <figure className="px-10 pt-10">
-                        <img src={img1} alt="Shoes" className="rounded-xl" />
+                    <figure className="">
+                        <img src={img1} alt="Shoes" className="w-[200px] h-[200px] p-4 rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-2xl font-semibold">Web Design</h2>
@@ -23,8 +23,8 @@ const Services = () => {
                 </div>
                 <div 
                     className="card bg-base-100 hover:bg-[#0D6EDA] hover:text-white shadow-xl">
-                    <figure className="px-10 pt-10">
-                        <img src={img2} alt="Shoes" className="rounded-xl" />
+                    <figure className="">
+                        <img src={img2} alt="Shoes" className="w-[200px] h-[200px] p-4 rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title text-2xl font-semibold">Full Stack Development</h2>
@@ -34,8 +34,8 @@ const Services = () => {
                 </div>
                 <div
                     className="card bg-base-100 hover:bg-[#0D6EDA] hover:text-white shadow-xl">
-                    <figure className="px-10 pt-10">
-                        <img src={img3} alt="Shoes" className="rounded-xl" />
+                    <figure className="">
+                        <img src={img3} alt="Shoes" className="w-[200px] h-[200px] p-4 rounded-xl" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title font-semibold text-2xl">UI/UX Design</h2>
